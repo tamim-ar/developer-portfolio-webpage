@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -95,7 +95,8 @@ main {
 .section-title {
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 130px;
+    margin-top: 130px;
 }
 
 .section-description {
@@ -123,3 +124,130 @@ main {
     color: #474747;
     font-weight: 700;
 }
+
+/* what i do titles */
+
+.section-title {
+    text-align: center;
+}
+
+.what-i-do {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.what-i-do-cation {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+/* skill */
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    text-align: left;
+    margin-top: 20;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    text-align: left;
+}
+
+.skill-img {}
+
+/* resume styles */
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-head-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.resume {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cvdownload{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* contact section */
+
+.contact{
+    background: #FFF8F3;
+    display: flex;
+    text-align: left;
+    gap: 115px;
+    padding: 130px 200px;
+    
+}
+
+.contact-header{
+    margin-bottom: 25px;
+}
+
+.connect-info{
+    margin-bottom: 30px;
+}
+
+.contact input[type="name"],[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
